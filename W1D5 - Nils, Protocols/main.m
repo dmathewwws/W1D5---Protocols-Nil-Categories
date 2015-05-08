@@ -7,11 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Sky.h"
+#import "Airplane.h"
+#import "Bird.h"
+#import "NSArray+Additions.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+    
+//        Sky *sky = [Sky new];
+//        Airplane *airplane = [Airplane new];
+//        Bird *bird = [Bird new];
+//    
+//        sky.delegate = bird;
+//        [sky goFly];
+        
+        
+        NSArray *array = @[@1, @2, @3];
+        [array printBackwards];
     }
     return 0;
 }

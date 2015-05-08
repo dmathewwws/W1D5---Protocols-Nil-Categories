@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		AF43D54E1AFC857B0014A213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF43D54D1AFC857B0014A213 /* main.m */; };
+		AF43D5771AFD16760014A213 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = AF43D5761AFD16760014A213 /* Teacher.m */; };
+		AF43D57B1AFD1B1B0014A213 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = AF43D57A1AFD1B1B0014A213 /* Bird.m */; };
+		AF43D57E1AFD1B290014A213 /* Airplane.m in Sources */ = {isa = PBXBuildFile; fileRef = AF43D57D1AFD1B290014A213 /* Airplane.m */; };
+		AF43D5811AFD1BDC0014A213 /* Sky.m in Sources */ = {isa = PBXBuildFile; fileRef = AF43D5801AFD1BDC0014A213 /* Sky.m */; };
+		AF43D5841AFD1F640014A213 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF43D5831AFD1F640014A213 /* NSArray+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		AF43D54A1AFC857B0014A213 /* W1D5 - Nils, Protocols */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "W1D5 - Nils, Protocols"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF43D54D1AFC857B0014A213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF43D5751AFD16760014A213 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		AF43D5761AFD16760014A213 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		AF43D5781AFD1AFE0014A213 /* FlyingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyingProtocol.h; sourceTree = "<group>"; };
+		AF43D5791AFD1B1B0014A213 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		AF43D57A1AFD1B1B0014A213 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		AF43D57C1AFD1B290014A213 /* Airplane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Airplane.h; sourceTree = "<group>"; };
+		AF43D57D1AFD1B290014A213 /* Airplane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Airplane.m; sourceTree = "<group>"; };
+		AF43D57F1AFD1BDC0014A213 /* Sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sky.h; sourceTree = "<group>"; };
+		AF43D5801AFD1BDC0014A213 /* Sky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sky.m; sourceTree = "<group>"; };
+		AF43D5821AFD1F640014A213 /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
+		AF43D5831AFD1F640014A213 /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				AF43D54D1AFC857B0014A213 /* main.m */,
+				AF43D5821AFD1F640014A213 /* NSArray+Additions.h */,
+				AF43D5831AFD1F640014A213 /* NSArray+Additions.m */,
+				AF43D5781AFD1AFE0014A213 /* FlyingProtocol.h */,
+				AF43D57F1AFD1BDC0014A213 /* Sky.h */,
+				AF43D5801AFD1BDC0014A213 /* Sky.m */,
+				AF43D57C1AFD1B290014A213 /* Airplane.h */,
+				AF43D57D1AFD1B290014A213 /* Airplane.m */,
+				AF43D5791AFD1B1B0014A213 /* Bird.h */,
+				AF43D57A1AFD1B1B0014A213 /* Bird.m */,
+				AF43D5751AFD16760014A213 /* Teacher.h */,
+				AF43D5761AFD16760014A213 /* Teacher.m */,
 			);
 			path = "W1D5 - Nils, Protocols";
 			sourceTree = "<group>";
@@ -118,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF43D5771AFD16760014A213 /* Teacher.m in Sources */,
+				AF43D57E1AFD1B290014A213 /* Airplane.m in Sources */,
+				AF43D5811AFD1BDC0014A213 /* Sky.m in Sources */,
 				AF43D54E1AFC857B0014A213 /* main.m in Sources */,
+				AF43D5841AFD1F640014A213 /* NSArray+Additions.m in Sources */,
+				AF43D57B1AFD1B1B0014A213 /* Bird.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
